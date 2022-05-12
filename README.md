@@ -13,11 +13,12 @@ Vue Js modules :
 2. Vuex for state management
 3. Vue-Router for routing and routes stuff
 
-#Project Setup 
-###Database
+# Project Setup 
+### Database
 you can make new database and import the `.sql` file in `#importdb`
 after that you can set up `.env` file. to the database you created or imported
 if theres no `.env` file around try make `.env`file in the project folder and copy this code to your new `.env` file content
+
 `API_SECRET=98hbun98h #Used when creating a JWT. It can be anything
 DB_HOST=127.0.0.1
 DB_DRIVER=mysql
@@ -26,11 +27,11 @@ DB_PASSWORD=
 DB_NAME=golang
 DB_PORT=3306`
 
-###Go
+### Go
 setting up the go you can start by using this command in the terminal 
 `go run main.go`
 
-###Vue
+### Vue
 navigate to `app` folder then you can start typing in your terminal using
 `npm install`
 wait for the process to be completed, and run 
