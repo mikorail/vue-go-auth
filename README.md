@@ -20,13 +20,13 @@ after that you can set up `.env` file. to the database you created or imported
 if theres no `.env` file around try make `.env`file in the project folder and copy this code to your new `.env` file content
 
 
-`API_SECRET=98hbun98h #Used when creating a JWT. It can be anything
-DB_HOST=127.0.0.1
-DB_DRIVER=mysql
-DB_USER=root
-DB_PASSWORD=
-DB_NAME=golang
-DB_PORT=3306`
+`API_SECRET=98hbun98h #Used when creating a JWT. It can be anything`
+`DB_HOST=127.0.0.1`
+`DB_DRIVER=mysql`
+`DB_USER=root`
+`DB_PASSWORD=`
+`DB_NAME=golang`
+`DB_PORT=3306``
 
 
 ### Go
@@ -37,7 +37,7 @@ setting up the go you can start by using this command in the terminal
 navigate to `ui` folder then you can start typing in your terminal using
 
 `npm install`
-
+to install the modules and the package required
 wait for the process to be completed, and run 
 
 `npm run serve`
